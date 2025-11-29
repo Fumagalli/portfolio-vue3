@@ -1,0 +1,278 @@
+{
+  "hero": {
+    "title": "Ângelo Fumagalli",
+    "subtitle": "Frontend Engineer especialista em Vue.js, React e TypeScript, com mais de 15 anos de experiência transformando ideias em interfaces modernas e de alto impacto.",
+    "location": "Pelotas, RS, Brasil",
+    "cta_projects": "Ver Projetos",
+    "cta_contact": "Entre em Contato"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description": "Sou <strong>Desenvolvedor Front-end</strong> situado em Pelotas, Brasil. Com um <strong>perfil analítico e proativo</strong>, atuo não apenas na execução, mas também na antecipação de problemas e na proposição de soluções criativas <strong>desde a fase de planejamento até o deploy</strong>. Acredito que a transparência e a colaboração são a chave para entregas assertivas; por isso, valorizo a troca de conhecimentos, o apoio ao crescimento técnico dos colegas e a <strong>participação ativa nas tomadas de decisão</strong> do time. <br /> <br /> Minha busca por excelência reflete-se na <strong>qualidade do código</strong> e na atenção aos detalhes. Tecnicamente, minha experiência abrange a codificação de interfaces, o domínio de frameworks como <strong>Vue.js e React</strong>, a criação e manutenção de <strong>componentes em bibliotecas</strong>, além do desenvolvimento em <strong>WordPress</strong> e implementação de <strong>APIs simples</strong>. Tenho forte compromisso com a <strong>documentação de código</strong> e com a otimização de layouts, garantindo responsividade, performance e a melhor <strong>experiência de usuário (UX)</strong> em diversos dispositivos.",
+    "highlights": {
+      "experience": "+15 anos de experiência em Front-End",
+      "focus": "Foco em UI/UX, SEO e Performance",
+      "international": "Experiência com Times Remotos Internacionais",
+      "mentorship": "Mentoria e Suporte Técnico a Desenvolvedores"
+    }
+  },
+  "projects": {
+    "title": "Projetos Selecionados",
+    "subtitle": "Alguns dos principais projetos que desenvolvi ao longo da minha carreira",
+    "items": [
+      {
+        "name": "Portfolio Profissional React",
+        "description": "Portfolio pessoal desenvolvido com React 18, TypeScript e Tailwind CSS, implementando as melhores práticas de desenvolvimento frontend moderno. Apresenta sistema de internacionalização (i18n) completo, design responsivo e otimizado para SEO.",
+        "impact": "Criação de vitrine profissional totalmente responsiva e acessível (WCAG), com suporte a múltiplos idiomas (PT/EN), demonstrando expertise em desenvolvimento frontend e atenção à experiência do usuário.",
+        "tech": [
+          "React 18",
+          "TypeScript",
+          "Tailwind CSS",
+          "i18next",
+          "Vite",
+          "shadcn/ui",
+          "React Router"
+        ],
+        "url": "https://afumagalli.com.br",
+        "github": "https://github.com/Fumagalli/portfolio"
+      }
+    ],
+    "view_code": "Ver Código",
+    "view_live": "Ver ao Vivo",
+    "view_github": "Ver no GitHub"
+  },
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "subtitle": "Tecnologias e ferramentas que domino",
+    "categories": {
+      "languages": {
+        "title": "Linguagens & Frameworks",
+        "items": [
+          "Vue.js",
+          "React.js",
+          "Angular",
+          "JavaScript",
+          "TypeScript",
+          "Nuxt",
+          "Next.js",
+          "Pinia",
+          "Redux",
+          "HTML5",
+          "CSS3",
+          "SASS",
+          "Tailwind CSS"
+        ]
+      },
+      "cms": {
+        "title": "CMS & Back-End",
+        "items": [
+          "WordPress (Headless)",
+          "Storyblok",
+          "Adobe Experience Manager (AEM)",
+          "Node.js",
+          "PHP",
+          "REST APIs",
+          "GraphQL"
+        ]
+      },
+      "tools": {
+        "title": "Ferramentas & DevOps",
+        "items": [
+          "Docker",
+          "Git",
+          "GitHub",
+          "CI/CD",
+          "Vitest",
+          "Jest",
+          "Storybook",
+          "Webpack",
+          "Vite",
+          "ESLint",
+          "Prettier"
+        ]
+      },
+      "other": {
+        "title": "Outras Competências",
+        "items": [
+          "SEO",
+          "Design Responsivo",
+          "Acessibilidade (WCAG)",
+          "Figma",
+          "Provas de Conceito (POC)",
+          "Documentação Técnica",
+          "Code Review",
+          "Mentoria"
+        ]
+      }
+    }
+  },
+  "experience": {
+    "title": "Experiência Profissional",
+    "subtitle": "Minha trajetória profissional",
+    "timeline": [
+      {
+        "company": "Atlas Technologies",
+        "role": "Frontend Engineer",
+        "period": "04/2024 - 10/2025",
+        "achievements": [
+          "Atuação na evolução do Fatal Model utilizando arquitetura de Micro Frontends (Vue.js, Nuxt.js, Laravel/Blade) para assegurar performance e SEO",
+          "Atuação no redesign do fluxo de exclusão de contas e desenvolvimento da 'Página de Desempenho' no painel de anunciantes",
+          "Implementação completa (Análise, POC e Code) da API de Web Push integrada ao RD Station, permitindo novas estratégias de engajamento",
+          "Otimização de Landing Pages com foco em Core Web Vitals e Schema.org, além de atuação proativa em Code Reviews e arquitetura"
+        ]
+      },
+      {
+        "company": "Wunderman Thompson Technology Brasil",
+        "role": "Frontend Engineer",
+        "period": "01/2021 - 02/2024",
+        "achievements": [
+          "Desenvolvimento de interfaces para Web e Mobile utilizando HTML, CSS, JS, Vue.js e React.js",
+          "Desenvolvimento e customização de projetos WordPress (PHP), incluindo criação de scripts wp-cli para ambientes Docker/Docksal",
+          "Colaboração com o time de infraestrutura para implementação de CI/CD em projetos WordPress e estruturação de ambientes Headless",
+          "Mentoria técnica para desenvolvedores e foco na otimização de layouts para responsividade e usabilidade"
+        ]
+      },
+      {
+        "company": "Startstudio Áudio, Vídeo e Web",
+        "role": "Frontend Web Developer",
+        "period": "07/2018 - 12/2020",
+        "achievements": [
+          "Codificação de interfaces Web e Mobile, migração de projetos para Vue.js com integração ao backend CakePHP",
+          "Migração do código de html/jquery dentro do cakephp para Vue2",
+          "Atuação fundamental no desenvolvimento da Store, atuando desde a POC até a entrega final",
+          "Criação do web player utilizado pelo superaudio",
+          "Manutenção contínua de sites (atualizações, correções de bugs, performance)"
+        ]
+      },
+      {
+        "company": "POSSIBLE",
+        "role": "Frontend Web Developer",
+        "period": "01/2016 - 01/2018",
+        "achievements": [
+          "Desenvolvimento de interfaces baseadas em wireframes utilizando HTML, CSS, JQuery e WordPress",
+          "Manutenção de projetos em React, Angular e criação de plugins customizados para WordPress",
+          "Suporte e orientação técnica para desenvolvedores júnior"
+        ]
+      },
+      {
+        "company": "Associação Escola Louis Braille",
+        "role": "Configuração e Desenvolvimento",
+        "period": "05/2015 - 07/2016",
+        "achievements": [
+          "Desenvolvimento de sistemas internos para informatização e agilização de processos da associação",
+          "Manutenção, configuração e instalação de softwares"
+        ]
+      },
+      {
+        "company": "blueshift.cc",
+        "role": "Frontend Web Developer",
+        "period": "08/2013 - 11/2015",
+        "achievements": [
+          "Coordenação de equipes de desenvolvimento, gerenciando e guiando colegas para entrega de resultados de alta qualidade",
+          "Desenvolvimento de interfaces, manutenção com Vanilla JS, jQuery e WordPress"
+        ]
+      },
+      {
+        "company": "Altowsta",
+        "role": "Desenvolvedor Full Stack",
+        "period": "06/2012 - 04/2013",
+        "achievements": ["Manutenção de projetos com Vanilla JS, jQuery, Ruby e WordPress"]
+      },
+      {
+        "company": "Quavio Projetos Web / Engage.me",
+        "role": "Full Stack Web Developer",
+        "period": "08/2010 - 08/2011",
+        "achievements": [
+          "Desenvolvimento e manutenção de projetos e plugins WordPress, além de adaptação de layouts web e mobile"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Vamos conversar?",
+    "subtitle": "Estou sempre aberto a discutir novos projetos e oportunidades. Entre em contato:",
+    "email": "E-mail",
+    "linkedin": "LinkedIn",
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "message": "Mensagem",
+      "send": "Enviar Mensagem",
+      "success": "Mensagem enviada com sucesso! Entrarei em contato em breve.",
+      "error": "Erro ao enviar mensagem. Por favor, tente novamente."
+    }
+  },
+  "footer": {
+    "education": {
+      "title": "Formação",
+      "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "institution": "SENAC-RS",
+      "year": "2023",
+      "course": {
+        "title": "Cursos Recentes",
+        "courses": "NLW Unite - ReactJS (Rocketseat, 2024)"
+      }
+    },
+    "languages": {
+      "title": "Idiomas",
+      "items": ["Português (Nativo)", "Inglês (B2 Independente)"]
+    },
+    "rights": "Todos os direitos reservados."
+  },
+  "testimonials": {
+    "title": "Depoimentos",
+    "subtitle": "O que colegas de trabalho dizem sobre mim",
+    "items": [
+      {
+        "name": "Audrea Benatto",
+        "role": "Product Manager | Growth | Aquisição | Ativação",
+        "relationship": "Trabalhava na mesma equipe",
+        "text": "O Ângelo é um desenvolvedor front-end com um perfil extremamente colaborativo e questionador no melhor sentido. Sempre buscando antecipar problemas e propor soluções antes que se tornem obstáculos. Tem uma postura muito madura de dividir as tomadas de decisão com o time, o que torna o processo de desenvolvimento mais rico e assertivo. Trabalhar com ele foi uma experiência de muita troca e aprendizado."
+      },
+      {
+        "name": "Gustavo Medeiros",
+        "role": "Quality Assurance Engineer | QA Automation | Full-Stack Developer | N8N | Playwright | JavaScript | Node.js | Python | Test Automation | BDD | Selenium | CI/CD",
+        "relationship": "Trabalhava na mesma equipe",
+        "text": "O Ângelo se destaca pela sua proatividade, análise técnica e senso crítico na hora de propor soluções. É um desenvolvedor front-end comprometido, com excelente domínio técnico e foco em entregar qualidade. Sem dúvidas, será uma grande adição a qualquer equipe de desenvolvimento!"
+      },
+      {
+        "name": "Luca Rodrigues da Silva",
+        "role": "Software Engineer",
+        "relationship": "Trabalhava na mesma equipe",
+        "text": "Ângelo é uma pessoa com excelentes qualidades no desenvolvimento de front-end, com amplo conhecimento das bases fundamentais de HTML, CSS e JavaScript, sempre trazendo soluções criativas para os problemas que solucionamos no nosso tempo trabalhando juntos, além de possuir ótimas soft skills para comunicação geral, argumentação e ensino, características que me apoiaram muito para meu crescimento profissional. É um desenvolvedor de qualidade excepcional!"
+      },
+      {
+        "name": "Tiago Jose Vieira de Oliveira",
+        "role": "Software Engineer | Senior Frontend Developer | React | Vue | Node.js | Javascript | Typescript | TDD",
+        "relationship": "Trabalhava na mesma equipe",
+        "text": "Ângelo tem um perfil altamente analítico, avaliando com cuidado as diferentes abordagens para a solução de problemas. Ele contribui com o time desde a fase de planejamento até o deploy, sempre mantendo a transparência sobre o progresso do desenvolvimento da funcionalidade. Além disso, suas entregas são bem estruturadas e refinadas, garantindo o máximo de qualidade possível."
+      },
+      {
+        "name": "Alexandre Riuti Wada",
+        "role": "Desenvolvedor Web Full Stack | PHP, Laravel, GoLang, Node.js, Python",
+        "relationship": "Trabalhava na mesma equipe",
+        "text": "Tive a oportunidade de trabalhar com Ângelo Fumagalli por um curto período, mas já foi suficiente para perceber sua competência e profissionalismo. Ele é um excelente desenvolvedor frontend, com uma visão criativa que vai além do óbvio, trazendo soluções inovadoras. Além disso, é uma pessoa carismática e educada, que torna qualquer ambiente de trabalho mais agradável. Recomendo a todos que podem contar com seu comprometimento, profissionalismo e habilidade técnica."
+      },
+      {
+        "name": "Ludmilla Carvalho",
+        "role": "Analista Programadora / Desenvolvedora Back End PHP | Python | AWS | GCPA",
+        "relationship": "Trabalhava na mesma equipe",
+        "text": "Trabalhar com o Ângelo foi uma experiência extremamente positiva. Além de ser uma pessoa super dedicada e atenta aos detalhes, ele tem um domínio técnico muito sólido em desenvolvimento front-end. Durante o tempo em que estivemos no mesmo time, vi de perto o cuidado que ele tem com a qualidade do código e a preocupação com a experiência do usuário. O Ângelo é colaborativo, respeitoso e sempre aberto a trocar ideias e com uma postura muito profissional no dia a dia. Quem tiver a chance de tê-lo no time, com certeza vai estar em boa companhia."
+      },
+      {
+        "name": "Lucas Garcia",
+        "role": "Senior Front End Engineer | VueJs | Javascript | Typescript",
+        "relationship": "Trabalhava em equipes diferentes",
+        "text": "Tive a oportunidade de trabalhar por um curto período no mesmo time que o Ângelo e, mesmo quando ele atuava em outra equipe, acompanhei de perto sua performance. Nossas trocas, ainda que indiretas, sempre foram enriquecedoras. Ângelo possui um conhecimento técnico impressionante, com grande atenção aos detalhes e um nível de excelência que se destaca. Tenho certeza de que ele fará a diferença onde quer que atue, agregando muito valor às equipes e projetos."
+      }
+    ]
+  },
+  "nav": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "experience": "Experiência",
+    "testimonials": "Depoimentos",
+    "contact": "Contato"
+  }
+}
