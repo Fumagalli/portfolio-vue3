@@ -17,7 +17,9 @@ const sectionRef = ref<HTMLElement | null>(null)
 const { isInView } = useIntersectionObserver(sectionRef, { threshold: 0.1, triggerOnce: true })
 
 const timeline = computed(() => {
-  const data = tm('experience.timeline')
+  // TODO: Remove 'as unknown' when vue-i18n fixes type inference for tm() in Composition API
+  // Issue: Type instantiation is excessively deep and possibly infinite
+  const data = tm('experience.timeline') as unknown
   return Array.isArray(data) ? (data as TimelineItem[]) : []
 })
 </script>

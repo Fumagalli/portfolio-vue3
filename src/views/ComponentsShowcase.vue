@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import Button from '@/components/ui/Button.vue'
 import Card from '@/components/ui/Card.vue'
 import CardHeader from '@/components/ui/CardHeader.vue'
@@ -8,10 +8,18 @@ import CardDescription from '@/components/ui/CardDescription.vue'
 import CardContent from '@/components/ui/CardContent.vue'
 import Badge from '@/components/ui/Badge.vue'
 import { useIntersectionObserver } from '@/composables/useIntersectionObserver'
+import { cn } from '@/utils/cn'
 import { Code2, Sparkles, Target, Heart } from 'lucide-vue-next'
 
 const cardRef = ref<HTMLElement | null>(null)
 const { isInView } = useIntersectionObserver(cardRef, { threshold: 0.1, triggerOnce: true })
+
+const animatedCardClass = computed(() =>
+  cn(
+    'p-8 transition-all duration-700',
+    isInView.value ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+  )
+)
 </script>
 
 <template>
@@ -33,7 +41,7 @@ const { isInView } = useIntersectionObserver(cardRef, { threshold: 0.1, triggerO
             <Code2 class="w-8 h-8 text-accent" />
             Buttons
           </h2>
-          
+
           <div class="space-y-6">
             <div>
               <h3 class="text-sm font-semibold text-muted-foreground mb-3">Variantes</h3>
@@ -79,7 +87,7 @@ const { isInView } = useIntersectionObserver(cardRef, { threshold: 0.1, triggerO
             <Sparkles class="w-8 h-8 text-accent" />
             Badges
           </h2>
-          
+
           <div class="space-y-4">
             <div>
               <h3 class="text-sm font-semibold text-muted-foreground mb-3">Variantes</h3>
@@ -120,7 +128,7 @@ const { isInView } = useIntersectionObserver(cardRef, { threshold: 0.1, triggerO
               </CardHeader>
               <CardContent>
                 <p class="text-muted-foreground">
-                  Este é um card simples usando os componentes Card, CardHeader, CardTitle, 
+                  Este é um card simples usando os componentes Card, CardHeader, CardTitle,
                   CardDescription e CardContent.
                 </p>
               </CardContent>
@@ -199,20 +207,14 @@ const { isInView } = useIntersectionObserver(cardRef, { threshold: 0.1, triggerO
         <section class="space-y-6">
           <h2 class="text-3xl font-bold">Animações de Scroll</h2>
           <p class="text-muted-foreground">Role a página para ver este card aparecer com animação</p>
-          
-          <Card
-            ref="cardRef"
-            :class="[
-              'p-8 transition-all duration-700',
-              isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-            ]"
-          >
+
+          <Card ref="cardRef" :class="animatedCardClass">
             <div class="flex items-center gap-4 mb-4">
               <Target class="w-8 h-8 text-accent" />
               <h3 class="text-2xl font-bold">Animated on Scroll</h3>
             </div>
             <p class="text-muted-foreground">
-              Este card aparece com uma animação suave quando entra no viewport usando o 
+              Este card aparece com uma animação suave quando entra no viewport usando o
               composable useIntersectionObserver!
             </p>
           </Card>
@@ -221,7 +223,7 @@ const { isInView } = useIntersectionObserver(cardRef, { threshold: 0.1, triggerO
         <!-- Gradients & Styles Section -->
         <section class="bg-card p-8 rounded-lg border">
           <h2 class="text-3xl font-bold mb-6">Gradientes & Estilos Customizados</h2>
-          
+
           <div class="space-y-6">
             <div>
               <h3 class="text-sm font-semibold text-muted-foreground mb-3">Gradient Accent</h3>
@@ -247,7 +249,7 @@ const { isInView } = useIntersectionObserver(cardRef, { threshold: 0.1, triggerO
         <!-- Color Palette -->
         <section class="bg-card p-8 rounded-lg border">
           <h2 class="text-3xl font-bold mb-6">Paleta de Cores (Design System)</h2>
-          
+
           <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div>
               <div class="bg-primary h-20 rounded-lg mb-2"></div>
