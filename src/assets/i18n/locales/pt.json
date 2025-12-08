@@ -21,6 +21,23 @@
     "subtitle": "Alguns dos principais projetos que desenvolvi ao longo da minha carreira",
     "items": [
       {
+        "name": "Portfolio Profissional Vue 3",
+        "description": "Portfolio pessoal desenvolvido com Vue 3, TypeScript e Tailwind CSS, utilizando Composition API e as melhores práticas de desenvolvimento moderno. Sistema completo de internacionalização (vue-i18n), design system customizado com variáveis HSL, e componentes reutilizáveis.",
+        "impact": "Migração completa do portfolio React para Vue 3, demonstrando versatilidade e domínio de diferentes frameworks. Implementação de design system robusto, intersection observers para animações, e arquitetura component-based escalável.",
+        "tech": [
+          "Vue 3",
+          "TypeScript",
+          "Tailwind CSS",
+          "vue-i18n",
+          "Vite",
+          "Composition API",
+          "Pinia",
+          "Vue Router"
+        ],
+        "url": "https://portfoliovue3.afumagalli.com.br/",
+        "github": "https://github.com/Fumagalli/portfolio-vue3"
+      },
+      {
         "name": "Portfolio Profissional React",
         "description": "Portfolio pessoal desenvolvido com React 18, TypeScript e Tailwind CSS, implementando as melhores práticas de desenvolvimento frontend moderno. Apresenta sistema de internacionalização (i18n) completo, design responsivo e otimizado para SEO.",
         "impact": "Criação de vitrine profissional totalmente responsiva e acessível (WCAG), com suporte a múltiplos idiomas (PT/EN), demonstrando expertise em desenvolvimento frontend e atenção à experiência do usuário.",
@@ -33,7 +50,7 @@
           "shadcn/ui",
           "React Router"
         ],
-        "url": "https://afumagalli.com.br",
+        "url": "https://portfolio.afumagalli.com.br/",
         "github": "https://github.com/Fumagalli/portfolio"
       }
     ],
